@@ -1,17 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
 
     <!-- Set the default version of the current product -->
     <Import Project="MainVersion.props" />
     
     <PropertyGroup>
-        <MyProductVersion>$(MainVersion)$(PackageVersionSuffix)</MyProductVersion>
-        <MyProductAssemblyVersion>$(MainVersion)</MyProductAssemblyVersion>
+        <MetalamaFrameworkRunTimeVersion>$(MainVersion)$(PackageVersionSuffix)</MetalamaFrameworkRunTimeVersion>
+        <MetalamaFrameworkRunTimeAssemblyVersion>$(MainVersion)</MetalamaFrameworkRunTimeAssemblyVersion>
     </PropertyGroup>
 
     
     <!-- Set the default versions of dependencies -->
     <PropertyGroup>
-        <PostSharpEngineeringVersion>2023.2.34</PostSharpEngineeringVersion>
+        <PostSharpEngineeringVersion>2023.2.44</PostSharpEngineeringVersion>
     </PropertyGroup>
 
     <!-- Set the deafult versions of auto-updated dependencies -->
@@ -21,8 +22,8 @@
     <Import Project="Versions.g.props" Condition="Exists('Versions.g.props')" />
 
     <PropertyGroup>
-        <AssemblyVersion>$(MyProductAssemblyVersion)</AssemblyVersion>
-        <Version>$(MyProductVersion)</Version>
+        <AssemblyVersion>$(MetalamaFrameworkRunTimeAssemblyVersion)</AssemblyVersion>
+        <Version>$(MetalamaFrameworkRunTimeVersion)</Version>
     </PropertyGroup>
 
 </Project>
