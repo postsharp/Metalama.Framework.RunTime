@@ -13,8 +13,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <InternalsVisibleTo Include="Metalama.Framework.Engine.4.4.0" />
         <InternalsVisibleTo Include="Metalama.Framework.Engine.4.0.1" />
+        <InternalsVisibleTo Include="Metalama.Framework.Engine.4.4.0" />
+        <InternalsVisibleTo Include="Metalama.Framework.Engine.4.8.0" />
     </ItemGroup>
 
     <!-- Packaging -->
