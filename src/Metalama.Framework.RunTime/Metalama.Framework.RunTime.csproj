@@ -10,6 +10,7 @@
             Run-time components for package 'Metalama.Framework'. This package should usually only be installed as a dependency.
             (This is not the package you are looking for, unless you've performed `metalama divorce`.)
         </PackageDescription>
+        <DebugType>Portable</DebugType>
     </PropertyGroup>
 
     <ItemGroup>
