@@ -10,7 +10,9 @@
     </PropertyGroup>
 
     
-    <!-- Set the default versions of dependencies -->
+    <!-- Set the default versions of PostSharp.Engineering-managed dependencies. -->
+    <!-- Versions of other dependencies are set in Directory.Packages.props. -->
+    <!-- See https://learn.microsoft.com/en-us/nuget/consume-packages/central-package-management. -->
     <PropertyGroup>
         <PostSharpEngineeringVersion>2023.2.107</PostSharpEngineeringVersion>
     </PropertyGroup>
