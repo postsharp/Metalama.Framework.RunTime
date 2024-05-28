@@ -9,9 +9,9 @@ using MetalamaDependencies = PostSharp.Engineering.BuildTools.Dependencies.Defin
 
 var product = new Product( MetalamaDependencies.MetalamaFrameworkRunTime )
 {
-    Solutions = new Solution[] { new DotNetSolution( "Metalama.Framework.RunTime.sln" ) },
+    Solutions = [new DotNetSolution( "Metalama.Framework.RunTime.sln" )],
     PublicArtifacts = Pattern.Create( "Metalama.Framework.RunTime.$(PackageVersion).nupkg" ),
-    Dependencies = new[] { DevelopmentDependencies.PostSharpEngineering }
+    Dependencies = [DevelopmentDependencies.PostSharpEngineering]
 };
 
 var commandApp = new CommandApp();
