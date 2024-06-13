@@ -5,6 +5,17 @@
         <RepoKind>GitHub</RepoKind> <!-- Valid values: AzureRepos | GitHub -->
     </PropertyGroup>
 
+    <PropertyGroup>
+
+        <!--
+// TODO: Fix the IDE0028 warnings in 2024.2.
+warning IDE0028: Collection initialization can be simplified (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/style-rules/ide0028)
+        -->
+        
+        <NoWarn>$(NoWarn);IDE0028</NoWarn>
+
+    </PropertyGroup>
+
     <Import Project="eng\Versions.props"/>
     <Import Project="eng\Packaging.props"/>
     <Import Sdk="PostSharp.Engineering.Sdk" Project="BuildOptions.props"/>
