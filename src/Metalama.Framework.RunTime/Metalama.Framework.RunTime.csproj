@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>Library</OutputType>
@@ -17,6 +17,7 @@
         <InternalsVisibleTo Include="Metalama.Framework.Engine.4.0.1" />
         <InternalsVisibleTo Include="Metalama.Framework.Engine.4.4.0" />
         <InternalsVisibleTo Include="Metalama.Framework.Engine.4.8.0" />
+        <InternalsVisibleTo Include="Metalama.Framework.Engine.4.12.0" />
     </ItemGroup>
 
     <!-- Packaging -->
